@@ -1,0 +1,49 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Build ===
+/build/
+/target/
+
+# === Gradle ===
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+build/
+out/
+.gradle/
+**/build/
+
+# === IntelliJ ===
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+
+# === Spring Boot ===
+application.yml
+application.properties
+.env
+
+# === Database ===
+*.h2.db
+*.mv.db
+*.sqlite
+
+# === Test ===
+test-output/
+coverage/
+
+# === Other ===
+.vscode/
+node_modules/
