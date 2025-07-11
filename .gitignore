@@ -31,7 +31,7 @@ Thumbs.db
 logs/
 
 # === Spring Boot ===
-application.yml
+src/main/resources/application*.yml
 application.properties
 .env
 
